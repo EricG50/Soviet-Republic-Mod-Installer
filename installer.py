@@ -39,13 +39,13 @@ def main():
     print(str(count) + ' mods installed')
 
 def replaceid(filepath: str, id: str):
-    with open(filepath, 'r') as f:
+    with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
         lines = f.readlines()
     for i, line in enumerate(lines):
         if line.startswith('$OWNER_ID'):
             lines[i] = f'$OWNER_ID {id}\n'
             break
-    with open(filepath, 'w') as f:
+    with open(filepath, 'w', encoding='utf-8', errors='ignore') as f:
         f.writelines(lines)
 
 
