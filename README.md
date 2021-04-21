@@ -1,6 +1,6 @@
 # Soviet-Republic-Mod-Installer
-This script automates the installation of Workers & Resources Soviet Republic mods. You don't need to use this for installing mods from Steam Workshop
-If you donload mods from other sources this will make installing much easier and faster.
+This script automates the installation of Workers & Resources Soviet Republic mods. You don't need to use this for installing mods from Steam Workshop.
+If you download mods from other sources this will make installing much easier and faster.
 # How to use
 ## Initial Setup:
 First make sure you have the latest version of Python Installed. Go to your game folder then in the media_soviet folder and create a folder called workshop_wip
